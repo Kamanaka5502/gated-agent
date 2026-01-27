@@ -54,7 +54,7 @@ curl -X POST http://localhost:8000/handle \
 
 ### Live Output
 
-[Demo](demo.png)
+![Demo](demo.png)
 
 Philosophy
 
