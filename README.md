@@ -52,6 +52,10 @@ curl -X POST http://localhost:8000/handle \
   -H "Content-Type: application/json" \
   -d '{"input":"I moved last week and my bill is high","session":{"user_id":"123"}}'
 
+### Live Output
+
+![Demo](demo.png)
+
 Philosophy
 
 Rules decide when
