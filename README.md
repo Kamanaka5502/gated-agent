@@ -20,7 +20,6 @@ It only decides how to say it.
 
 User → Gate → Bucket → Entity Extract → Tool → Validator → LLM → Logs → Learn
 
-
 ---
 
 ## Why this exists
@@ -51,15 +50,16 @@ uvicorn app:app --reload
 curl -X POST http://localhost:8000/handle \
   -H "Content-Type: application/json" \
   -d '{"input":"I moved last week and my bill is high","session":{"user_id":"123"}}'
-
-### Live Output
+```
 
 ![Demo](demo.png)
 
-Philosophy
+---
 
-Rules decide when
-Tools decide what
-LLM decides how
+## Philosophy
 
-Boring. Deterministic. Production-safe.
+Rules decide when  
+Tools decide what  
+LLM decides how  
+
+**Boring. Deterministic. Production-safe.**
